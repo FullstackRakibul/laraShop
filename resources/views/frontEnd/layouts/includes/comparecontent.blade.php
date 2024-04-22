@@ -1,0 +1,1 @@
+<a href="{{url('compare-product')}}"><i class="fa fa-signal" aria-hidden="true"></i><span>{{Cart::instance('compare')->content()->count()}}</span></a>

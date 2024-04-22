@@ -1,0 +1,1 @@
+<a href="{{url('show-cart')}}"><i class="fa fa-shopping-basket"></i> <span>{{Cart::instance('shopping')->count()}}</span></a>

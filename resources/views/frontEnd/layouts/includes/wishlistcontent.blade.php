@@ -1,0 +1,1 @@
+<a href="{{url('wishlist/product')}}"><i class="fa fa-heart"></i><span>{{Cart::instance('wishlist')->content()->count()}}</span></a>
